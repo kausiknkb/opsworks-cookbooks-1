@@ -201,7 +201,7 @@ default['postgresql']['enable_pgdg_yum'] = false
 default['postgresql']['pgdg']['repo_rpm_url'] = {
   "9.3" => {
 
-    "redhat" => {
+    "amazon" => {
       "6" => {
         "x86_64" => "http://yum.postgresql.org/9.3/redhat/rhel-6-x86_64/pgdg-redhat93-9.3-1.noarch.rpm"
       }
