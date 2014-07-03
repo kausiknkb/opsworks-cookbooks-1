@@ -199,6 +199,19 @@ default['postgresql']['enable_pgdg_yum'] = false
 #   node['platform_version']             e.g., "5.7", truncated as "5"
 #   node['kernel']['machine']            e.g., "i386" or "x86_64"
 default['postgresql']['pgdg']['repo_rpm_url'] = {
+  "9.3" => {
+
+    "redhat" => {
+      "6" => {
+        "x86_64" => "http://yum.postgresql.org/9.3/redhat/rhel-6-x86_64/pgdg-redhat93-9.3-1.noarch.rpm"
+      }
+    }
+    
+  },
+    
+    
+##############################################################    
+  
   "9.2" => {
     "centos" => {
       "6" => {
